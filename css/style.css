@@ -1,0 +1,39 @@
+.logo_link{
+    width: 13%;
+}
+
+.avatar_img{
+    width: 100%;
+}
+.parallax-container {
+      height: 350px;
+}
+      
+
+#blog{
+    background-image: url("../img/fundo_blog.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.avatar_sobre{
+    width: 15%;
+    border-radius: 50%;
+}
+.quemSou{
+    background-color: rgba(72,61,139, 0.5);
+    width: 50%;
+}
+.nosso_blog{
+    width: 30%;
+    height: 25%;
+}
+
+#menu{position: fixed;
+    background: rgba(30, 156, 161, 0.6);
+ }
+
+.menu-diferente{
+    background: rgb(58, 22, 155);
+ }
+

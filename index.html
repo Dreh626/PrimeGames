@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prime Games</title>
+    <link rel="shortcut icon" href="./img/LogoIcon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/materialize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/materialize.min.js"></script>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/app.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav id="menu">
+            <div class="nav-wrapper nav_color">
+                <ul id="nav-mobile" class="left hide-on-med-and-down">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#novidades">Novidades</a></li>
+                </ul>
+                <a href="#" class="brand-logo center"><img src="./img/LogoIcon.png" alt="Logo da Prime Games" srcset=""
+                        class="logo_link" /></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="#contato">Contato</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="collapsible.html">JavaScript</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="parallax" id="inicio">
+            <div class="parallax-container">
+                <div class="parallax"><img src="./img/dragon.jpg"></div>
+            </div>
+            <div class="section white">
+                <div class="row container">
+                    <h2 class="header">Parallax</h2>
+                    <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or
+                        image
+                        in this case, is moved at a different speed than the foreground content while scrolling.</p>
+                </div>
+            </div>
+            <div class="parallax-container">
+                <div class="parallax"><img src="./img/theWitcher.png"></div>
+            </div>
+        </div>
+        <div id="blog">
+            <div class="center">
+                <img src="./img/blog_nosso.png" alt="" srcset="" class="nosso_blog">
+            </div>
+            <div class="info_blog center">
+                <div class="img">
+                    <img src="./img/rick.jpg" alt="" srcset="" class="avatar_sobre">
+                </div>
+                <div class="info">
+                    <h5>Quem sou eu ? HahaHA</h5>
+                    <p>Entusiata, fanatico, louco, retardado pelo mundo dos games, seja online ou single player.</p>
+                </div>
+            </div>
+            <!-- fim div info BLOG -->
+            <ul class="collection">
+                <li class="collection-item avatar">
+                    <img src="./img/avatar1.png" alt="" class="circle avatar_img">
+                    <span class="title">Tifany</span>
+                    <p>Surpreendida <br>
+                        Depois que comecei a jogar online, principalmente nessa quarenta, pude sentir meus amigos mais
+                        próximo, vários roubos no GTA auhsauhsauhs.
+                    </p>
+                    <i class="material-icons secondary-content">4 minutes ago</i>
+                </li>
+                <li class="collection-item avatar">
+                    <img src="./img/avatar2.png" alt="" class="circle avatar_img">
+                    <span class="title">JhowTro MundO</span>
+                    <p>WTF <br>
+                        Fui banido mais uma vez do LOL só por causa de falar caixa d'agua.
+                    </p>
+                    <i class="material-icons secondary-content">10 minutes ago</i>
+                </li>
+                <li class="collection-item avatar">
+                    <img src="./img/avatar3.png" alt="" class="circle avatar_img">
+                    <span class="title">DarQueen</span>
+                    <p>E lá vamos nós <br>
+                        Alguém do blog para construir um mundo no Minecraft ?
+                    </p>
+                    <i class="material-icons secondary-content">7 minutes ago</i>
+                </li>
+                <li class="collection-item avatar">
+                    <img src="./img/avatar4.png" alt="" class="circle avatar_img">
+                    <span class="title">Alberto</span>
+                    <p>HELP-ME alguém<br>
+                        Alguém poderia me ajudar a configurar o server roleplay do GTA ?
+                    </p>
+                    <i class="material-icons secondary-content">4 minutes ago</i>
+                </li>
+            </ul>
+
+
+        </div>
+        <div id="novidades"></div>
+        <div id="contato"></div>
+
+        <footer>
+            <div id="sobre"></div>
+    </main>
+    </footer>
+
+    <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', function () {
+
+            var elems = document.querySelectorAll('.parallax');
+            var instances = M.Parallax.init(elems);
+        });
+
+
+
+        jQuery(function () {
+            jQuery(window).scroll(function () {
+                if (jQuery(this).scrollTop() > 400) {
+                    $("#menu").addClass("menu-diferente");
+                    alert("FOi")
+                } else {
+                    $("#menu").removeClass("menu-diferente");
+                    alert("Não foi")
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
