@@ -35,7 +35,7 @@
     <main>
         <div class="parallax" id="inicio">
             <div class="parallax-container">
-                <div class="parallax"><img src="./img/dragon.jpg"></div>
+                <div class="parallax"><img src="./img/dragon.svg"></div>
             </div>
             <div class="section white">
                 <div class="row container">
@@ -46,7 +46,7 @@
                 </div>
             </div>
             <div class="parallax-container">
-                <div class="parallax"><img src="./img/theWitcher.png"></div>
+                <div class="parallax"><img src="./img/zumbi.svg"></div>
             </div>
         </div>
         <div id="blog">
@@ -123,14 +123,12 @@
             var instances = M.Parallax.init(elems);
         });
 
-
-
-        jQuery(function () {
-            jQuery(window).scroll(function () {
-                if (jQuery(this).scrollTop() > 400) {
-                    $("#menu").addClass("menu-diferente");
+        $(function () {
+            $(window).on("scroll", function () {
+                if ($(window).scrollTop() > 100) {
+                    $("#menu").addClass("menuAlterado");
                 } else {
-                    $("#menu").removeClass("menu-diferente");
+                    $("#menu").removeClass("menuAlterado");
                 }
             });
         });
