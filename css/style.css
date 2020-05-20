@@ -324,7 +324,7 @@ ul#filters {
 .b-link-stripe:hover .b-line{
 	opacity:1;
 }
-}
+
 #filters {
 	margin: 3% 0;
 	padding: 0;
@@ -358,9 +358,6 @@ ul#filters {
 		border:2px solid #ff7105;
 	}
  	#portfoliolist .portfolio {
-		-webkit-box-sizing: border-box;
-		-moz-box-sizing: border-box;
-		-o-box-sizing: border-box;
 		width: 30%;
 		margin: 2% 2% 0 0;
 		display:none;
@@ -470,9 +467,7 @@ width: 25%!important;
 	-ms-background-size:cover;
 	padding:4em 0;
 }
-.vid-col{
-	
-}
+
 .vid-col p{
 	font-size:1.2em;
 	font-weight:500;
@@ -491,7 +486,7 @@ width: 25%!important;
 	margin:2em 0;
 }
 .more a{
-	font-size;0.875em;
+	font-size:0.875em;
 	color:#fff;
 	background:#ff7105;
 	padding:10px 15px;
@@ -754,7 +749,7 @@ ul.game-list li a:hover{
    -moz-box-shadow: 0 0 1px #000;
    box-shadow: 0 0 1px #000;
 }
-.view a.info: hover {
+.view a.info:hover {
    -webkit-box-shadow: 0 0 5px #000;
    -moz-box-shadow: 0 0 5px #000;
    box-shadow: 0 0 5px #000;
@@ -883,7 +878,7 @@ ul.game-list li a:hover{
 }
 .post-details p{
 	font-size:1em;
-	color:#3c3a3e
+	color:#3c3a3e;
 	font-weight:100;
 }
 .post-details p a{
@@ -1070,7 +1065,6 @@ ul.tags_links li a:hover{
 }
 /*-- About Page Ends Here --*/
 /*-- Contact Page Starts Here --*/
-.contact{}
 .map iframe{
 	width:100%;
 	height:250px;
@@ -1227,7 +1221,6 @@ ul.tags_links li a:hover{
 		height:32px;
 		background:url(../images/nav.png)no-repeat;
 		display: inline-block;
-		float:right;
 		cursor: pointer;
 	}
 	.navigation{
