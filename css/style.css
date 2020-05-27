@@ -31,6 +31,12 @@ html, body{
 	position:absolute;
 	top:0;
 	left:10%;
+	padding-top: 0%;
+}
+
+.logo img{
+	margin-left: 15%;
+	width: 25%;
 }
 .navigation{
 	width:70%;
@@ -82,7 +88,7 @@ ul.navig li a:hover{
 	vertical-align: -webkit-baseline-middle;
 }
 .banner{
-	background:url(../images/banner.jpg)no-repeat;
+	background:url(../images/valorant.jpg)no-repeat;
 	background-size:cover;
 	-webkit-background-size:cover;
 	-o-background-size:cover;
@@ -459,7 +465,7 @@ width: 25%!important;
 /*-- Gallery Part Ends Here --*/
 /*-- Video search Parts starts Here --*/
 .video-serch{
-	background:url(../images/vid-bg.jpg)no-repeat;
+	background:url(../images/fortniteEdit.jpg)no-repeat;
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -475,6 +481,7 @@ width: 25%!important;
 	color:#fff;
 	line-height:1.8em;
 	margin:0.5em 0;
+	text-shadow: 0 0 0.2em #000, 0 0 0.2em #f87;
 }
 .vid-col p:nth-of-type(2){
 	font-style:normal;
