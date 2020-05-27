@@ -725,6 +725,8 @@ ul.game-list li a:hover{
 .view img {
    display: block;
    position: relative;
+   width: 100%;
+   min-height: 100%;
 }
 .view h2 {
    text-transform: uppercase;
