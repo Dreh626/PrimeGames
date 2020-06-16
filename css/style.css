@@ -110,6 +110,10 @@ ul.navig li a:hover{
 	.vid-coll{
 		display: none;
 	}
+
+	.contact{
+		display: none;
+	}
 }
 .banner-bot{
 	padding:4em 0;
