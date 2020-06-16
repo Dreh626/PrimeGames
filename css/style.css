@@ -105,6 +105,12 @@ ul.navig li a:hover{
 		min-height:600px;	
 	}
 }
+
+@media(max-width:800px){
+	iframe{
+		display: none;
+	}
+}
 .banner-bot{
 	padding:4em 0;
 	text-align:center;
