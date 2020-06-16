@@ -737,10 +737,11 @@ ul.game-list li a:hover{
    left: 0;
 }
 .view img {
-   display: block;
-   position: relative;
+	display: flex;
+   position: absolute;
    width: 100%;
    min-height: 100%;
+   cover
 }
 .view h2 {
    text-transform: uppercase;
@@ -1225,9 +1226,9 @@ ul.tags_links li a:hover{
 		width: 235px;
 		height: 165px;
 	}
-	.view-first img {
+	/* .view-first img {
 		width: 100%;
-	}
+	} */
 	.about-details {
 		width: 52%;
 	}
