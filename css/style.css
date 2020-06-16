@@ -107,7 +107,7 @@ ul.navig li a:hover{
 }
 
 @media(max-width:800px){
-	iframe{
+	.vid-coll{
 		display: none;
 	}
 }
