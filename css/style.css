@@ -106,7 +106,7 @@ ul.navig li a:hover{
 	}
 }
 
-@media(max-width:800px){
+@media(max-width:900px){
 	.vid-coll{
 		display: none;
 	}
