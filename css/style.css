@@ -114,6 +114,11 @@ ul.navig li a:hover{
 	iframe{
 		display: none;
 	}
+
+	.logo a img{
+		margin-left: 95% !important;
+		width: 25% !important;
+	}
 }
 .banner-bot{
 	padding:4em 0;
