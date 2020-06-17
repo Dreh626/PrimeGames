@@ -92,7 +92,7 @@ ul.navig li a:hover{
 	vertical-align: -webkit-baseline-middle;
 }
 .banner{
-	background:url(../images/valorant.jpg)no-repeat;
+	background:url(../images/valorant.svg)no-repeat;
 	background-size:cover;
 	-webkit-background-size:cover;
 	-o-background-size:cover;
